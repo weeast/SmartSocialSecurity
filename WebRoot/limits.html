@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link type="text/css" href="css/account.css" charset="utf-8" rel="stylesheet" />
+<script type="text/javascript" language="javascript" src="js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" language="javascript" src="js/limits.js"></script>
+<title>limits</title>
+</head>
+
+<body>
+	<div style="width:800px;height:517px;position:absolute;top:0px;left:0px;background:url(img/homepage/homapage-BackgroundLogo.png) no-repeat center;">
+		<div style="margin:30px 0 0 54px;float:left;width:685px">
+        	<span style="font-family:微软雅黑;font-size:18px">权限管理</span>
+        </div>
+        <div style="margin:10px 0 0 54px;float:left;width:685px">
+        	<button id="limit_button" >权限管理</button>
+
+            <input id="search_text" type="text"  style="left:290px" />
+            <button id="search_button" ></button>
+        </div>
+        <div style="margin-left:54px;float:left;width:685px">
+        	<table bordercolor="white" border="0.5" id="list_table" style="font-family:黑体;font-size:15px;text-align:center; opacity:0.8">
+            	<tr height="21">
+                	<td width="57" style="color:white" >序号</td>
+                    <td width="125" style="color:white">账号</td>
+                    <td width="123" style="color:white">姓名</td>
+                    <td width="123" style="color:white">所在地</td>
+                    <td width="125" style="color:white">部门</td>
+                    <td width="125" style="color:white">权限查看</td>
+                    
+                </tr>
+            </table>
+        </div>
+        <div style="margin:15px 0 0 54px;float:left;width:685px; text-align:center">
+        	<span style="font-family:微软雅黑;font-size:14px;margin-right:10px;cursor:pointer">首页</span>
+            <span style="font-family:微软雅黑;font-size:14px;margin-right:20px;cursor:pointer">上一页</span>
+            <span style="font-family:微软雅黑;font-size:14px">第</span>
+            <span id="moment_page" style="font-family:微软雅黑;font-size:14px">1</span>
+            <span style="font-family:微软雅黑;font-size:14px">页/共</span>
+            <span id="total_page" style="font-family:微软雅黑;font-size:14px">1</span>
+            <span style="font-family:微软雅黑;font-size:14px;margin-right:20px">页</span>
+            <span style="font-family:微软雅黑;font-size:14px;margin-right:10px;cursor:pointer">下一页</span>
+            <span style="font-family:微软雅黑;font-size:14px;cursor:pointer">末页</span>
+        </div>
+    </div>
+</body>
+</html>

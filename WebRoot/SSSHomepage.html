@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link type="text/css" href="css/SSSHomepage.css" charset="utf-8" rel="stylesheet" />
+<script type="text/javascript" language="javascript" src="js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" language="javascript" src="js/SSShomepage.js"></script>
+<title>SSS全国社保精算平台</title>
+</head>
+
+<body>
+    <div style="width:1024px;margin:auto;background-color:#eee">
+    	<div id="homepage_title" >
+        	<img src="img/login/title-logo.png" style="float:left;margin:20px 0 0 55px;" />
+            <img src="img/login/title-text.png" style="float:left;margin:20px 0 0 10px" />
+            <div style="margin:58px 30px 0 0;float:right">
+            	<span style="font-family:黑体;font-size:14px;color:white;float:left; line-height:27px">姓名：</span>
+                <span id="user_name" style="font-family:黑体;font-size:14px;color:white;float:left; line-height:27px"></span>
+                <span style="font-family:黑体;font-size:14px;color:white;float:left;margin-left:10px; line-height:27px">所在地：</span>
+                <span id="user_place" style="font-family:黑体;font-size:14px;color:white;float:left; line-height:27px"></span>
+                <button id="logout_button"></button>
+            </div>
+        </div>
+		<div id="homepage_body">
+        	<div id="menu_board" style="height:517px;width:220px;margin-top:2px;float:left;background-color:#707070;overflow:hidden">
+            	<button id="menu_button_AccountManagement" onclick="MenuClick(this)"></button>
+                <div id="AccountManagement" class="list_board"></div>
+                <button id="menu_button_UserManagement" onclick="MenuClick(this)"></button>
+                <div id="UserManagement" class="list_board" ></div>
+                <button id="menu_button_DataManagement" onclick="MenuClick(this)"></button>
+                <div id="DataManagement" class="list_board"></div>
+                <button id="menu_button_ModelManagement" onclick="MenuClick(this)"></button>
+                <div id="ModelManagement" class="list_board"></div>
+                <button id="menu_button_ActuarialAnalyst" onclick="MenuClick(this)"></button>
+                <div id="ActuarialAnalyst" class="list_board"></div>
+            </div>
+            <div style="float:left;width:800px;height:517px;overflow:hidden;white-space:nowrap">
+            <div style="width:1600px;float:left">
+                <div id="icon_buttons" style="height:517px;width:800px;margin-top:2px;float:left;background:url(img/homepage/homapage-BackgroundLogo.png) no-repeat center;"></div>
+                <iframe id="child_frame" src="" scrolling="no" frameborder="0" ></iframe>
+            </div>
+            </div>
+        </div>
+        <div id="homepage_tie">
+        	<p style="text-align:center;font-family:微软雅黑;font-size:12px;color:white;position:relative;top:10px">
+            	&copy;Copyright ChongqingUniversity Continue
+            </p>
+        </div>
+        
+    </div>
+</body>
+</html>

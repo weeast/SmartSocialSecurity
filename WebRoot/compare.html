@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link type="text/css" href="css/modeldetail.css" charset="utf-8" rel="stylesheet" />
+<script type="text/javascript" language="javascript" src="js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" language="javascript" src="js/modeldetail.js"></script>
+<title>compare</title>
+</head>
+
+<body>
+	<div style="width:800px;height:517px;position:absolute;top:0px;left:0px;background:url(img/homepage/homapage-BackgroundLogo.png) no-repeat center;">
+		<div style="margin:30px 0 0 54px;float:left;width:685px">
+        	<span style="font-family:微软雅黑;font-size:18px">模型对比</span>
+        </div>
+        <div style="margin:10px 0 0 54px;float:left;width:700px">
+        	<button id="search_model"  onmouseover="CheckOn()" onmouseout="CheckOut()"></button>
+            <span style="font-family:微软雅黑;font-size:14px;float:left; display:inline-block;margin:5px 0 0 190px">测试年限：</span>
+            <select id="text_year" style="width:50px;font-family:微软雅黑;font-size:14px;float:left;margin-top:4px">
+            	<option>2015</option>
+            </select>
+            <input id="multi_check" type="checkbox" style="font-family:微软雅黑;font-size:14px;float:left;margin:10px 0 0 20px" onclick="MultiModel(this)" />
+            <span style="font-family:微软雅黑;font-size:14px;float:left; display:inline-block;margin-top:5px">多模型对比</span>
+            <input id="comp_check" type="checkbox" style="font-family:微软雅黑;font-size:14px;float:left;margin:10px 0 0 20px" onclick="CompModel(this)" />
+            <span style="font-family:微软雅黑;font-size:14px;float:left; display:inline-block;margin-top:5px">完整模型</span>
+        </div>	
+        <div style="float:left">
+            <div id="total_model" style="position:relative;left:54px;width:142px;height:210px;background-image:url(img/modelManagement/button-background-lookUpModel.png);float:left; visibility:hidden; z-index:1" onmouseover="CheckOn()" onmouseout="CheckOut()">
+                <button id="population_model" style="margin-top:7px" onmouseover="PmodelOn()" onmouseout="PmodelOut()" ></button>
+                <button id="givep_model" value="PaymentPopulation" onclick="QueryModel(this)" ></button>
+                <button id="wholegiveout_model" onmouseover="WmodelOn()" onmouseout="WmodelOut()" ></button>
+                <button id="comep_model" value="TotalPay" onclick="QueryModel(this)" ></button>            
+                <button id="personalgiveout_model" value="AccountPay"  onclick="QueryModel(this)" ></button>             
+                <button id="comein_model" value="FundIncome"  onclick="QueryModel(this)"></button>    	
+            </div>
+            <div id="Pmodel" style="position:relative;top:7px;left:50px;width:150px;height:67px;background:url(img/modelManagement/menu-background-population.png) no-repeat right;float:left; visibility:hidden; z-index:1" onmouseover="PmodelOn();CheckOn()" onmouseout="PmodelOut();CheckOut()" >
+                <button id="ruralp_model" value="Country"  onclick="QueryModel(this)"></button>
+                <button id="townp_model" value="Town"  onclick="QueryModel(this)"></button>
+            </div>
+            <div id="Wmodel" style="position:relative;top:75px;left:-100px;width:150px;height:135px; background:url(img/modelManagement/menu--background-wholeFundExpense.png) no-repeat right;float:left; visibility:hidden; z-index:1" onmouseover="WmodelOn();CheckOn()" onmouseout="WmodelOut();CheckOut()" >
+                <button id="peremptyg_model" value="EmptyPay"  onclick="QueryModel(this)"></button>
+                <button id="basicg_model" value="FoundationPay" onclick="QueryModel(this)" ></button>
+                <button id="transitiong_model" value="ExcessivePay" onclick="QueryModel(this)" ></button>
+                <button id="longevityg_model" value="AccountLongevityPay" onclick="QueryModel(this)" ></button>
+            </div>
+        </div>
+        <div style="float:left;position:relative;top:-200px;left:54px;width:700px">
+        	<div id="model_buttons"  style="float:left;height:380px;width:250px; border-radius:5px; border:1px solid #7d7d7d; overflow:auto">
+            </div>
+        	<div  style="float:left;margin-left:20px;width:400px">
+            	<div id="model_board" style="float:left;width:400px">
+                	<div style="float:left;width:120px; text-align:center;">
+                    	<button id="choose_button_one" class="choose_button" style="margin-top:130px" onclick="ModelChoose(this)"></button>
+                        <button id="delete_button_one" class="delete_button" style="margin-top:10px"></button>
+                    </div>
+                    <div id="model_one" style="float:left;width:250px;height:340px;border:1px solid #7d7d7d; border-radius:5px; overflow:auto">
+                    	<button class="model_button" ></button>
+                    </div>
+                </div>
+                <div style="float:left;width:250px;margin:15px 0 0 120px; text-align:center">
+                	<button id="next_step" onclick="TextModel()" ></button>
+                    <button id="canecl_step"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

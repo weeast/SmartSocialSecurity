@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminInfoServelt</servlet-name>
+    <servlet-class>actuarical.servelt.AdminInfoServelt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LogoutServelt</servlet-name>
+    <servlet-class>actuarical.servelt.LogoutServelt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserInfoServelt</servlet-name>
+    <servlet-class>actuarical.servelt.UserInfoServelt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InternalDataServlet</servlet-name>
+    <servlet-class>actuarical.servelt.InternalDataServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyInfoQueryServlet</servlet-name>
+    <servlet-class>actuarical.servelt.ModifyInfoQueryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModelInfoServlet</servlet-name>
+    <servlet-class>actuarical.servelt.ModelInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ActuaryInfoServlet</servlet-name>
+    <servlet-class>actuarical.servelt.ActuaryInfoServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>AdminInfoServelt</servlet-name>
+    <url-pattern>/adminInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogoutServelt</servlet-name>
+    <url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserInfoServelt</servlet-name>
+    <url-pattern>/userInfoServelt</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InternalDataServlet</servlet-name>
+    <url-pattern>/internalData</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyInfoQueryServlet</servlet-name>
+    <url-pattern>/modifyInfoQuery</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModelInfoServlet</servlet-name>
+    <url-pattern>/modelInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ActuaryInfoServlet</servlet-name>
+    <url-pattern>/actuaryInfo</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>SSSlogin.html</welcome-file>
+  </welcome-file-list>
+</web-app>

@@ -1,0 +1,220 @@
+@charset "utf-8";
+/* CSS Document */
+#homepage_title
+{
+	height:95px;
+	background-image:url(../img/login/title-shade.png);	
+}
+
+#homepage_tie
+{
+	height:34px;
+	background-color:#2d3135;	
+}
+
+#homepage_body
+{
+	height:507px;
+}
+
+#child_frame
+{
+	width:800px;
+	height:517px;
+	float:left;	
+}
+
+#logout_button
+{
+	margin-left:10px;
+	width:66px;
+	height:25px;
+	border:0px;
+	cursor:pointer;
+	background:url(../img/homepage/button-exit.png) no-repeat;
+}
+
+#logout_button:hover
+{
+	background-image:url(../img/homepage/button-exit-hover.png);	
+}
+
+#menu_button_AccountManagement
+{
+	position:relative;
+	width:219px;
+	height:51px;
+	border:0px;
+	cursor:pointer;
+	z-index:1;
+	background:url(../img/homepage/menu-AccountManagement.png) no-repeat;
+}
+
+#menu_button_AccountManagement:hover
+{
+	background-image:url(../img/homepage/menu-AccountManagement-hover.png);
+}
+
+#menu_button_UserManagement
+{
+	position:relative;
+	width:219px;
+	height:51px;
+	border:0px;
+	cursor:pointer;
+	z-index:1;
+	background:url(../img/homepage/menu-UserManagement.png) no-repeat;
+}
+
+#menu_button_UserManagement:hover
+{
+	background-image:url(../img/homepage/menu-UserManagement-hover.png);
+}
+
+#menu_button_DataManagement
+{
+	position:relative;
+	width:219px;
+	height:51px;
+	border:0px;
+	cursor:pointer;
+	z-index:1;
+	background:url(../img/homepage/menu-DataManagement.png) no-repeat;
+}
+
+#menu_button_DataManagement:hover
+{
+	background-image:url(../img/homepage/menu-DataManagement-hover.png);
+}
+
+#menu_button_ModelManagement
+{
+	position:relative;
+	width:219px;
+	height:51px;
+	border:0px;
+	cursor:pointer;
+	z-index:1;
+	background:url(../img/homepage/menu-ModelManagement.png) no-repeat;	
+}
+
+#menu_button_ModelManagement:hover
+{
+	background-image:url(../img/homepage/menu-ModelManagement-hover.png);
+}
+
+#menu_button_ActuarialAnalyst
+{
+	position:relative;
+	width:219px;
+	height:51px;
+	border:0px;
+	cursor:pointer;
+	z-index:1;
+	background:url(../img/homepage/menu-ActuarialAnalyst.png) no-repeat;	
+}
+
+#menu_button_ActuarialAnalyst:hover
+{
+	background-image:url(../img/homepage/menu-ActuarialAnalyst-hover.png);
+}
+
+.icon_button
+{
+	width:86px;
+	height:86px;
+	border:0px;
+	cursor:pointer;
+	margin:40px 0 0 35px;
+	background-repeat:no-repeat;
+}
+
+.list_button
+{
+	position:relative;
+	width:219px;
+	height:30px;
+	border:0px;
+	cursor:pointer;
+	background-repeat:no-repeat;	
+}
+
+.list_board
+{
+	position:relative;
+	width:219px;
+	height:0px;
+	visibility:hidden;
+	margin-left:1px;
+	margin-bottom:1px;
+	background-color:#333;
+	z-index:0;
+}
+#create_button
+{
+	margin:10px 0 0 10px;
+	background:url(../img/accountManagement/button-add-generate.png) no-repeat;
+	width:66px;
+	height:24px;
+	border:0px;
+	cursor:pointer;
+}
+#create_button:hover
+{
+	background-image:url(../img/accountManagement/button-add-generate-hover.png);
+}
+.add_input
+{
+	background:url(../img/accountManagement/addAccount-inputbox.png) no-repeat;
+	width:123px;
+	height:26px;	
+	border:0px;
+	font-family:微软雅黑;
+	font-size:14px;
+	line-height:16px;
+	padding:0 6px;
+}
+.add_input:hover
+{
+	background-image:url(../img/accountManagement/addAccount-inputbox-hover.png);
+}
+#add_button
+{
+	background:url(../img/accountManagement/button-add-ok.png) no-repeat;
+	width:66px;
+	height:24px;
+	border:0px;
+	cursor:pointer;
+}
+#add_button:hover
+{
+	background-image:url(../img/accountManagement/button-add-ok-hover.png);	
+}
+
+#return_button
+{
+	margin-left:10px;
+	background:url(../img/accountManagement/button-add-back.png) no-repeat;
+	width:66px;
+	height:24px;
+	border:0px;
+	cursor:pointer;	
+}
+#return_button:hover
+{
+	background-image:url(../img/accountManagement/button-add-back-hover.png);
+}
+#submit_button
+{
+	margin:10px 0 0 260px;
+	background-color:#5791d7;
+	width:66px;
+	height:24px;
+	border:0px;
+	border-radius:5px;
+	cursor:pointer;	
+}
+#submit_button:hover
+{
+	background-color:#196bcd;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link type="text/css" href="css/analysis.css" charset="utf-8" rel="stylesheet" />
+<script type="text/javascript" language="javascript" src="js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" language="javascript" src="js/analysis.js"></script>
+<title>analysis</title>
+</head>
+
+<body>
+	<div style="width:800px;height:517px;position:absolute;top:0px;left:0px;background:url(img/homepage/homapage-BackgroundLogo.png) no-repeat center;">
+    	<div style="margin:30px 0 0 54px;float:left;width:685px">
+        	<span style="font-family:微软雅黑;font-size:18px">精算分析</span>
+        </div>
+        <div id="model_board" style="margin:10px 0 0 54px;float:left;width:740px;height:450px;position:relative">
+        	<button value="Country" class="model_button_normal" style="top:100px;left:0px" onclick="QueryModel(this)" onblur="ModelDown()">农村人口模型</button>
+            <button value="Town" class="model_button_normal" style="top:135px;left:0px" onclick="QueryModel(this)" onblur="ModelDown()">城镇人口模型</button>
+            <button value="PaymentPopulation" class="model_button_normal" style="top:50px;left:200px" onclick="QueryModel(this)" onblur="ModelDown()">缴费人口模型</button>
+            <button value="TotalPay" class="model_button_normal" style="top:185px;left:200px" onclick="QueryModel(this)" onblur="ModelDown()">领取人口模型</button>
+            <button value="FundIncome" class="model_button_normal" style="top:50px;left:400px" onclick="QueryModel(this)" onblur="ModelDown()">养老收入模型</button>
+            <button value="AccountPay" class="model_button_normal" style="top:185px;left:400px" onclick="QueryModel(this)" onblur="ModelDown()">实帐账户支出模型</button>
+            <button value="EmptyPay" class="model_button_normal" style="top:240px;left:400px" onclick="QueryModel(this)" onblur="ModelDown()">个人账户空账支出</button>
+            <button value="FoundationPay" class="model_button_normal" style="top:275px;left:400px" onclick="QueryModel(this)" onblur="ModelDown()">基础养老金支出</button>
+            <button value="ExcessivePay" class="model_button_normal" style="top:310px;left:400px" onclick="QueryModel(this)" onblur="ModelDown()">过渡养老金支出</button>
+            <button value="AccountLongevityPay" class="model_button_normal" style="top:345px;left:400px;font-size:10px;width:147px" onclick="QueryModel(this)" onblur="ModelDown()">个人账户实账长寿支出</button>
+            <button id="next_step" onclick="window.open('analysisnext.html','_self')"></button>
+        </div>
+
+    </div>
+</body>
+</html>

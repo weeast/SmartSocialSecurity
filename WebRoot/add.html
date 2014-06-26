@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link type="text/css" href="css/add.css" charset="utf-8" rel="stylesheet" />
+<script type="text/javascript" language="javascript" src="js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" language="javascript" src="js/add.js"></script>
+<title>add</title>
+</head>
+
+<body>
+	<div style="width:800px;height:517px;position:absolute;top:0px;left:0px;background:url(img/homepage/homapage-BackgroundLogo.png) no-repeat center;">
+    	<div style="margin:30px 0 0 54px;float:left;width:685px">
+        	<span style="font-family:微软雅黑;font-size:18px">添加模型</span>
+        </div>
+        <div style="margin:20px 0 0 54px;float:left;width:800px">
+        	<div style="float:left;width:188px;height:50px; border-radius:5px; background-color:#ccc; text-align:center">
+            	<input class="search_input" id="search_text" style="float:left" />
+                <button id="search_button" ></button>
+            </div>
+ 
+            <div style="float:left;width:520px;height:50px; border-radius:5px; background-color:#ccc;margin-left:10px">
+            	<button id="left_paren" class="cal_button" style="margin-left:20px" onclick="CaulButton(this)"></button>
+                <button id="right_paren" class="cal_button" onclick="CaulButton(this)"></button>
+                <button id="add_cal" class="cal_button" onclick="CaulButton(this)"></button>
+                <button id="redu_cal" class="cal_button" onclick="CaulButton(this)"></button>
+                <button id="multi_cal" class="cal_button" onclick="CaulButton(this)"></button>
+                <button id="divi_cal" class="cal_button" onclick="CaulButton(this)"></button>
+                <button id="sin_cal" class="cal_button" onclick="CaulButton(this)"></button>
+                <button id="cos_cal" class="cal_button" onclick="CaulButton(this)"></button>
+                <button id="integral_cal" class="cal_button" onclick="CaulButton(this)"></button>
+                <button id="even_add" class="cal_button" onclick="CaulButton(this)"></button>
+                <button id="even_multi" class="cal_button" onclick="CaulButton(this)"></button>
+                <button id="more_button" class="cal_button" onclick="CaulButton(this)"></button>
+                <button id="merge_button" ></button>
+                <button id="generate_button" onclick="AddModel()"></button>
+            </div>
+        </div>
+        <div style="margin:5px 0 0 54px;float:left;width:800px">
+        	<div style="float:left;width:188px;">
+        		<div id="data_board" style="float:left;width:100%;height:320px; border-radius:5px; background-color:#ccc;overflow:auto" title="各项数据">
+                </div>
+                <div style="float:left;width:100%; text-align:center;margin-top:15px">
+                	<button id="add_button" onclick="DataChoose()"></button>
+                    <button id="cancel_button" onclick="DataCancel()"></button>
+                </div>
+			</div>
+            <div style="float:left;width:520px;margin-left:10px">
+            	<div style="float:left; height:260px">
+                    <div style="float:left;width:355px;height:256px;border-radius:5px;border:1px solid #7d7d7d" title="生成公式">
+                    	<span id="model_fromu" style=" word-break:break-all;margin:5px;font-family:微软雅黑;font-size:14px;display:inline-block;width:340px;height:240px"></span>
+                    </div>
+                    <div id="cdata_board" style="float:left;width:157px;height:258px;border-radius:5px; background-color:#8f8f8f; margin-left:5px; overflow:auto" title="已选数据及生成数据">
+                    </div>
+                </div>
+                <div style="float:left; height:96px;width:519px; background-color:#ccc;border-radius:5px;margin-top:5px; overflow:auto"">
+                	<span style="font-family:微软雅黑;font-size:14px;margin:5px 0 0 5px;width:50px; display:inline-block">名称：</span>
+                    <input id="model_name" style="font-family:微软雅黑;font-size:14px;margin:5px 0 0 5px;width:400px" />
+                    <span style="font-family:微软雅黑;font-size:14px;margin:5px 0 0 5px;width:50px; display:inline-block">说明：</span>
+                    <input id="model_detail" style="font-family:微软雅黑;font-size:14px;margin:5px 0 0 5px;width:400px" />
+                    <span style="font-family:微软雅黑;font-size:14px;margin:5px 0 0 5px;width:50px; display:inline-block">类别：</span>
+                    <select id="model_kind" style="font-family:微软雅黑;font-size:14px;width:200px;margin:5px 0 0 5px;">
+                    	<option value="Country">农村人口模型</option>
+                        <option value="Town">城镇人口模型</option>
+                        <option value="PaymentPopulation">缴费人口模型</option>
+                        <option value="FundIncome">养老金收入模型</option>
+                        <option value="AccountPay">实账支出模型</option>
+                        <option value="EmptyPay">个人空账支出</option>
+                        <option value="FoundationPay">基础养老支出</option>
+                        <option value="ExcessivePay">过渡性养老支出</option>
+                        <option value="AccountLongevityPay">个人实账长寿支出</option>
+                    </select>
+                </div>
+            </div>
+ 		</div>
+        
+    </div>
+</body>
+</html>

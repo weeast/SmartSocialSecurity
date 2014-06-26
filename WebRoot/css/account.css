@@ -1,0 +1,203 @@
+@charset "utf-8";
+/* CSS Document */
+#add_button
+{
+	float:left
+	margin-left:10px;
+	width:64px;
+	height:26px;
+	border:0px;
+	cursor:pointer;
+	background:url(../img/accountManagement/button-add.png) no-repeat;
+}
+#edit_button
+{
+	float:left
+	margin-left:10px;
+	width:64px;
+	height:26px;
+	border:0px;
+	cursor:pointer;
+	background:url(../img/accountManagement/button-edit.png) no-repeat;
+}
+#delete_button
+{
+	float:left
+	margin-left:10px;
+	width:64px;
+	height:26px;
+	border:0px;
+	cursor:pointer;
+	background:url(../img/accountManagement/button-delete.png) no-repeat;
+}
+#manage_button
+{
+	float:left
+	margin-left:10px;
+	width:98px;
+	height:27px;
+	border:0px;
+	cursor:pointer;
+	background:url(../img/accountManagement/button-institution.png) no-repeat;
+}
+#search_button
+{
+	float:right;
+	margin-left:10px;
+	width:64px;
+	height:26px;
+	border:0px;
+	cursor:pointer;
+	background:url(../img/accountManagement/button-search.png) no-repeat;	
+}
+#add_button:hover
+{
+	background-image:url(../img/accountManagement/button-add-hover.png);
+}
+#edit_button:hover
+{
+	background-image:url(../img/accountManagement/button-edit-hover.png);
+}
+#delete_button:hover
+{
+	background-image:url(../img/accountManagement/button-delete-hover.png);
+}
+#manage_button:hover
+{
+	background-image:url(../img/accountManagement/button-institution-hover.png);
+}
+#search_button:hover
+{
+	background-image:url(../img/accountManagement/button-search-hover.png);
+}
+#search_text
+{
+	position:relative;
+	left:75px;
+	top:-7px;
+	background:url(../img/login/login-inputbox.png) no-repeat;
+	width:190px;
+	height:26px;
+	margin:0 10px;	
+	border:0px;
+	font-family:微软雅黑;
+	font-size:14px;
+	line-height:16px;
+	padding:0 6px;
+}
+#search_text:hover
+{
+	background-image:url(../img/login/login-inputbox-hover.png);
+}
+
+#limit_button
+{
+	font-family:微软雅黑;
+	width:98px;
+	height:27px;
+	border:0px;
+	border-radius:5px;
+	cursor:pointer;
+	background-color:#dcecf6;
+}
+
+#limit_button:hover
+{
+	background-color:#9cc3e7;	
+}
+
+#analysis
+{
+	width:75px;
+	height:26px;
+	border:0px;
+	cursor:pointer;
+	background:url(../img/actuaryAnalysis/button-executelActuary.png) no-repeat;	
+}
+#analysis:hover
+{
+	background-image:url(../img/actuaryAnalysis/button-executelActuary-hover.png);	
+}
+#retrun
+{
+	width:66px;
+	height:24px;
+	border:0px;
+	cursor:pointer;
+	background:url(../img/accountManagement/button-add-back.png);	
+}
+#retrun:hover
+{
+	background-image:url(../img/accountManagement/button-add-back-hover.png);
+}
+#check_table
+{
+	margin-left:40px;
+	width:75px;
+	height:26px;
+	cursor:pointer;
+	border:0px;
+	background:url(../img/actuaryAnalysis/button-searchRecord.png) no-repeat;
+}
+#check_table:hover
+{
+	background-image:url(../img/actuaryAnalysis/button-searchRecord-hover.png);	
+}
+
+#upload_table
+{
+	width:75px;
+	height:26px;
+	cursor:pointer;
+	border:0px;
+	background:url(../img/actuaryAnalysis/button-submitByHand.png) no-repeat;
+}
+#upload_table:hover
+{
+	background-image:url(../img/actuaryAnalysis/button-submitByHand-hover.png);	
+}
+#create_button
+{
+	font-family:微软雅黑;
+	background-color:white;
+	margin:10px 0 0 10px;
+	width:66px;
+	height:24px;
+	border:1px solid black;
+	border-radius:5px;
+	cursor:pointer;
+}
+#create_button:hover
+{
+	border-color:#09F;
+}
+#add_button
+{
+	background:url(../img/accountManagement/button-add-ok.png) no-repeat;
+	width:66px;
+	height:24px;
+	border:0px;
+	cursor:pointer;
+}
+#add_button:hover
+{
+	background-image:url(../img/accountManagement/button-add-ok-hover.png);	
+}
+#return_button
+{
+	margin-left:10px;
+	background:url(../img/accountManagement/button-add-back.png) no-repeat;
+	width:66px;
+	height:24px;
+	border:0px;
+	cursor:pointer;	
+}
+#return_button:hover
+{
+	background-image:url(../img/accountManagement/button-add-back-hover.png);
+}
+.add_input
+{
+	border-radius:5px;
+	width:180px;	
+}

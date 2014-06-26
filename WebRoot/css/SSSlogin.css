@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+#login_title
+{
+	height:95px;
+	background-image:url(../img/login/title-shade.png);	
+}
+#login_board
+{
+	height:162px;
+	width:381px;
+	background-image:url(../img/login/login-background.png);
+	margin:140px auto 180px auto;
+	padding:20px 0;
+}
+#login_tie
+{
+	height:34px;
+	background-color:#2d3135;	
+}
+#login_button
+{
+	margin:20px 0 0 155px;
+	width:81px;
+	height:30px;
+	border:0px;
+	cursor:pointer;
+	background:url(../img/login/login-button.png) no-repeat;
+}
+#login_button:hover
+{
+	background-image:url(../img/login/login-button-hover.png);	
+}
+.login_input
+{
+	float:left;
+	background:url(../img/login/login-inputbox.png) no-repeat;
+	width:190px;
+	height:26px;
+	margin:0 10px;	
+	border:0px;
+	font-family:微软雅黑;
+	font-size:14px;
+	line-height:16px;
+	padding:0 6px;
+}
+.login_input:hover
+{
+	background-image:url(../img/login/login-inputbox-hover.png);
+}
+
+#sure_button
+{
+	margin:10px 0 0 165px;
+	width:72px;
+	height:27px;
+	border:0px;
+	cursor:pointer;
+	background:url(../img/accountManagement/button-ok.png) no-repeat;
+}
+#sure_button:hover
+{
+	background-image:url(../img/accountManagement/button-ok-hover.png);	
+}

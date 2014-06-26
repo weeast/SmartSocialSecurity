@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+.model_button_normal
+{
+	position:absolute;
+	font-family:微软雅黑;
+	font-size:14px;
+	padding-left:20px;
+	color:white;
+	text-align:center;
+	width:143px;
+	height:34px;
+	border:0px;
+	cursor:pointer;
+	background:url(../img/actuaryAnalysis/button-addModel.png) no-repeat;	
+}
+.model_button_normal:hover
+{
+	background-image:url(../img/actuaryAnalysis/button-edit-hover.png);	
+}
+
+.model_choose_button
+{
+	font-family:微软雅黑;
+	font-size:14px;
+	color:white;
+	text-align:center;
+	margin:3px 2px 0 3px;
+	width:136px;
+	height:26px;
+	border-radius:3px;
+	border:0px;
+	cursor:pointer;
+	background-color:#535353;	
+}
+.model_choose_button:hover
+{
+	background-color:#898989;	
+}
+
+#next_step
+{
+	position:absolute;
+	top:120px;
+	left:600px;
+	width:64px;
+	height:28px;
+	border:0px;
+	cursor:pointer;
+	background:url(../img/compareModel/button-next.png) no-repeat;
+}
+#next_step:hover
+{
+	background-image:url(../img/compareModel/button-next-hover.png);	
+}

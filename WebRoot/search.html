@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link type="text/css" href="css/search.css" charset="utf-8" rel="stylesheet" />
+<script type="text/javascript" language="javascript" src="js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" language="javascript" src="js/search.js"></script>
+<title>search</title>
+</head>
+
+<body>
+	<div style="width:800px;height:517px;position:absolute;top:0px;left:0px;background:url(img/homepage/homapage-BackgroundLogo.png) no-repeat center;">
+    	<div style="margin:30px 0 0 54px;float:left;width:685px">
+        	<span style="font-family:微软雅黑;font-size:18px">查看模型</span>
+        </div>
+		<div style="background:url(img/modelManagement/line.png) no-repeat; background-position:142px 53px;width:800px;height:500px;float:left;margin:30px 0 0 54px">
+        	<button id="population_model" style="position:relative;top:80px" onmouseover="PmodelOn()" onmouseout="PmodelOut()" ></button>
+            <button id="givep_model"  value="PaymentPopulation" style="position:relative;top:38px;left:42px" onclick="QueryModel(this)" ></button>
+            <button id="comep_model" value="TotalPay" style="position:relative;top:125px;left:-100px"  onclick="QueryModel(this)"  ></button>
+            <button id="comein_model" value="FundIncome"  style="position:relative;top:38px;left:-62px"  onclick="QueryModel(this)"  ></button>
+            <button id="personalgiveout_model" value="AccountPay" style="position:relative;top:125px;left:-204px"  onclick="QueryModel(this)" ></button>
+            <button id="wholegiveout_model" style="position:relative;top:170px;left:365px"  onmouseover="MmodelOn()" onmouseout="MmodelOut()" ></button>
+            <div id="Pmodel" style="position:relative;top:79px;left:-142px;width:142px;height:74px;background:url(img/modelManagement/button-background-population.png) no-repeat;float:left;visibility:hidden"  onmouseover="PmodelOn()" onmouseout="PmodelOut()">
+                <button id="ruralp_model"  value="Country"  style="margin-top:7px"  onclick="QueryModel(this)"  ></button>
+                <button id="townp_model"  value="Town"  onclick="QueryModel(this)"  ></button>
+            </div>
+            <div id="Mmodel" style="position:relative;top:202px;left:81px;width:142px;height:142px;background:url(img/modelManagement/button--background-wholeFundExpense.png) no-repeat;float:left; visibility:hidden" onmouseover="MmodelOn()" onmouseout="MmodelOut()">
+                <button id="peremptyg_model"  value="EmptyPay"  style="margin-top:7px"  onclick="QueryModel(this)" ></button>
+                <button id="basicg_model" value="FoundationPay"  onclick="QueryModel(this)"  ></button>
+                <button id="transitiong_model"  value="ExcessivePay"  onclick="QueryModel(this)" ></button>
+                <button id="longevityg_model" value="AccountLongevityPay" onclick="QueryModel(this)" ></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

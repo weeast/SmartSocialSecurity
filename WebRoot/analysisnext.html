@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link type="text/css" href="css/account.css" charset="utf-8" rel="stylesheet" />
+<script type="text/javascript" language="javascript" src="js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" language="javascript" src="js/analysisnext.js"></script>
+<title>analysisnext</title>
+</head>
+
+<body>
+	<div style="width:800px;height:517px;position:absolute;top:0px;left:0px;background:url(img/homepage/homapage-BackgroundLogo.png) no-repeat center;">
+		<div style="margin:30px 0 0 54px;float:left;width:685px">
+        	<span style="font-family:微软雅黑;font-size:18px">精算分析</span>
+        </div>
+        <div style="margin:10px 0 0 54px;float:left;width:685px">
+        	<span style="font-family:微软雅黑;font-size:14px;float:left">预测年限</span>
+			<select id="text_year" style="float:left;width:60px;margin-left:20px;">
+				<option>2012</option>
+				<option>2015</option>
+				<option>2020</option>
+				<option>2050</option>
+			</select>
+            <button id="check_table" ></button>
+            <button id="upload_table" onclick="UpLoadTable()"></button>
+            <input id="table_src" type="file" style="visibility:hidden;width:0px" />
+            <span style="font-family:微软雅黑;font-size:14px;float:right;cursor:pointer;margin-left:20px">下一页</span>
+            <span style="font-family:微软雅黑;font-size:14px;float:right;cursor:pointer">上一页</span>
+        </div>
+        <div style="margin-left:54px;float:left;width:685px">
+        	<table bordercolor="white" border="0.5" id="list_table" style="font-family:黑体;font-size:15px;color:white;text-align:center; opacity:0.8">
+            	<tr height="21">
+                	<td width="57">序号</td>
+                    <td width="125">记录名称</td>
+                    <td width="123">记录属性</td>
+                    <td width="123">记录属性</td>
+                    <td width="125">记录属性</td>
+                    <td width="125">记录属性</td>
+                    
+                </tr>
+            </table>
+        </div>
+        <div style="margin:15px 0 0 54px;float:left;width:685px; text-align:center">
+        	<button id="analysis" onclick="GetResult()" ></button>
+            <button id="retrun"></button>
+        </div>
+    </div>
+</body>
+</html>

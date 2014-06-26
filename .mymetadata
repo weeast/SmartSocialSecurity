@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="SmartSocialSecurity"
+  id="myeclipse.1380790413433"
+  context-root="/SmartSocialSecurity"
+  j2ee-spec="6.0"
+  archive="SmartSocialSecurity.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

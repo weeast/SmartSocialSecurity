@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+.dateButton
+{
+	width:201px;
+	height:40px;
+	font-family:微软雅黑;
+	font-size:14px;
+	margin:10px 0 0 23px;
+}
+
+.operatorButton
+{
+	width:80px;
+	height:80px;
+	font-family:微软雅黑;
+	font-size:28px;
+	margin:5px 5px;
+}
+.dateButton:hover
+{
+	border-color:red;
+	color:red;
+	font-weight:bold;
+}
+.buttonClick
+{
+	border-color:red;
+	color:red;
+	font-weight:bold;
+}
+.buttonCancel
+{
+	width:40px;
+	height:40px;	
+	font-size:12px;
+	margin:10px 0;
+	visibility:hidden;
+}
